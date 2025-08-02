@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: linear-gradient(to bottom right, #fff7e6, #fef6ff);
+  color: #3a2c2a;
+  line-height: 1.6;
+}
+
+/* HEADER */
+header {
+  background: linear-gradient(to right, #ff9966, #ff5e62);
+  color: white;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+  font-size: 32px;
+}
+
+header .tagline {
+  font-size: 16px;
+  margin-top: 5px;
+  font-style: italic;
+}
+
+nav ul {
+  list-style: none;
+  margin-top: 10px;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* PORTFOLIO SECTIONS */
+.portfolio-section {
+  background: white;
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
+  transition: 0.3s;
+}
+
+.portfolio-section:hover {
+  transform: translateY(-5px);
+}
+
+/* PROFILE CARD */
+.profile-card {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid #ff9966;
+  object-fit: cover;
+}
+
+/* SKILLS TAGS */
+.skills {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 8px 0;
+}
+
+.skills span {
+  background: linear-gradient(to right, #ffcc70, #ffaf45);
+  padding: 5px 12px;
+  border-radius: 12px;
+  font-weight: bold;
+  color: #4b3832;
+}
+
+/* BUTTON */
+.cv-btn {
+  display: inline-block;
+  background: linear-gradient(to right, #f9d423, #ff4e50);
+  color: white;
+  padding: 10px 15px;
+  border-radius: 8px;
+  text-decoration: none;
+  margin-top: 10px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.cv-btn:hover {
+  background: linear-gradient(to right, #ff4e50, #f9d423);
+}
+
+/* FORM */
+form {
+  margin-top: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+form input, form textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ffcc70;
+  border-radius: 8px;
+}
+
+form button {
+  background: linear-gradient(to right, #ff9966, #ff5e62);
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+form button:hover {
+  background: linear-gradient(to right, #ff5e62, #ff9966);
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  background: linear-gradient(to right, #ff9966, #ff5e62);
+  color: white;
+  padding: 12px;
+  margin-top: 30px;
+  font-weight: bold;
+}
